@@ -2,6 +2,16 @@
 
 🎄 Merry X mas!
 
+[링크](https://leegeunhyeok.github.io/2019-x-mas)
+
+> 여러분의 코드를 아름다운 트리로 만들어드립니다!
+
+<img width="300px" src="./preview.png">
+
+<img width="300px" src="./code_tree.png">
+
+- 결과물은 이미지로 다운로드 받으실 수 있어요!
+
 ## Project setup
 ```
 npm install
