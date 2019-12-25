@@ -1,5 +1,7 @@
 # 2019-x-mas
 
+🎄 Merry X mas!
+
 ## Project setup
 ```
 npm install
