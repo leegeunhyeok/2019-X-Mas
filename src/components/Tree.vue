@@ -42,7 +42,7 @@ export default {
   methods: {
     createTree () {
       let x = 500 / 2
-      let y = 40
+      let y = 36
       let offset = 0
       let count = 1
       let targetHeight = 30
@@ -101,11 +101,12 @@ export default {
       this.ctx.fillText(char, x, y)
     },
     createTreeStum (x, y) {
+      this.ctx.shadowBlur = 0
       this.ctx.fillStyle = 'brown'
       for (let i = 0; i < 3; i++) {
         this.ctx.fillText('====',
           x,
-          (y * this.lineHeight) + (this.lineHeight * i) + this.lineHeight
+          (y * this.lineHeight) + (this.lineHeight * i) + this.lineHeight / 2
         )
       }
     },
