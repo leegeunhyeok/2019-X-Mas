@@ -68,6 +68,7 @@ export default {
     max-width: 500px;
     height: 350px;
     margin: auto;
+    margin-bottom: 30px;
 
     textarea {
       width: 100%;
